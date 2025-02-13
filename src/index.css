@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@theme {
+  --color-darkpink: #9E005D;
+  --color-dpink: #d3087f;
+}
+
+@layer components {
+  .containar{
+    @apply w-4/5 mx-auto;
+  }
+  .nav-link {
+    @apply font-serif font-bold text-[12px] py-4 border-dpink hover:border-b-3 transition-colors duration-500;
+  }
+  .foot-link {
+    @apply font-serif text-[14px] border-amber-400 hover:border-b-3 transition-colors duration-500;
+  }
+  .dropdown-link {
+    @apply p-2 hover:text-blue-500 transition;
+  }
+  .btn-md {
+    @apply px-6 py-2.5 rounded bg-darkpink;
+  }
+  .txt-bold {
+    @apply text-black font-semibold tracking-wide text-[16px] text-justify;
+  }
+  .txt-normal {
+    @apply text-gray-700 text-[16px] text-justify;
+  }
+  .heading {
+    @apply  text-5xl md:text-7xl font-bold pb-6 md:leading-tight uppercase;
+  }
+  .title-bold {
+    @apply text-black font-bold tracking-wider text-[28px];
+  }
+
+  .heading-lg {
+    @apply  text-4xl md:text-6xl  md:leading-tight;
+  }
+  .heading-md {
+    @apply  text-2xl md:text-4xl  font-[800];
+  }
+  .heading-small {
+    @apply text-lg md:text-[16px]  font-semibold;
+  }
+  .heading-sm {
+    @apply text-3xl  font-semibold tracking-tight;
+  }
+
+  .txt-md {
+    @apply text-gray-300 text-sm md:text-[13.5px] ;
+  }
+  .txt-regular {
+    @apply text-slate-100 text-[17px]  hover:text-blue-500;
+  }
+  .desc {
+    @apply text-gray-300 text-lg md:text-[17px] ;
+  }
+  .foot-title{
+    @apply  text-2xl tracking-wide text-[#9E005D] mb-6;
+  }
+  .inputs {
+    @apply w-full md:w-1/2 p-4 border bg-black;
+  }
+
+}
