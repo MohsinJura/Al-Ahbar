@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from '../Components/Banner'
-import ServiceBox from '../Components/serviceBox'
+import ServiceBox from '../Components/ServiceBox'
 import Intro from '../Components/Intro'
 import ContactBox from '../Components/ContactBox'
 import PrinterServices from '../Components/PrinterServices'
@@ -10,7 +10,7 @@ import CompanySection from '../Components/CompanySection'
 import WhatWeOffer from '../Components/WhatWeOffer'
 import SupportSection from '../Components/SupportSection'
 import CustomerReviews from '../Components/CustomerReviews'
-import WhyChooseTeam from '../Components/WhyChooseTeam'
+import WhyChooseTeam from '../Components/WhyChooseTeam';
 
 const Home = () => {
   return (
